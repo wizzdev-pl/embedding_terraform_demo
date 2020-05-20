@@ -1,0 +1,2 @@
+-r ./aws_architecture/requirements.txt
+-r ./wist_config_tool/requirements.txt
