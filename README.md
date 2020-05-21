@@ -63,20 +63,20 @@ On the first run your AWS credentials must be configured:
         
 - to add new device to AWS IoT Core:
 
-        wist add_device --dev_name "device_name"
+        wist add_device --dev_name device_name
        
         
 - to remove a device from AWS IoT Core:
 
-        wist remove_device --dev_name "device_name" 
+        wist remove_device --dev_name device_name
         
 - to copy certificate for a specific device, to some destination
 
-        wist get_cert --dev_name "device_name" --dest_dir "path_to_destination_directory"
+        wist get_cert --dev_name device_name --dest_dir pat/to/destination/directory
         
 
         
-**Note:** The first call to `wist add_device` or `remove_device` may take longer because of Terraform binary is being installed, as well Terraform environment initialized.
+**Note:** The first call to `wist add_device` or `remove_device` may take longer because of Terraform binary being installed, as well Terraform environment initialized.
 
 
 Also in case new Terraform version is available it will be downloaded automatically.
